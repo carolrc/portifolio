@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+        * {
+
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .container-header {
+            background-color: #000;
+            display: flex;
+            flex-direction: row;
+            letter-spacing: 1px;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+
+        }
+
+        .container-header:hover {
+            background-color: purple;
+        }
+
+        .container-header h1 {
+            color: #fff;
+            padding: 10px;
+        }
+
+        .container-header a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .container-header a:hover {
+            color: yellow;
+        }
+
+        .about {
+            width: 100%;
+            padding: 100px 0px;
+            background-color: yellow;
+        }
+
+        .about img {
+            height: auto;
+            width: 430px;
+        }
+
+        .about-text {
+            width: 550px;
+        }
+
+        .main {
+            width: 1130px;
+            max-width: 95%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .about-text h2 {
+            color: #000;
+            font-size: 50px;
+            text-transform: capitalize;
+            /* margin-bottom: 20px; */
+            padding-top: 50px;
+
+        }
+
+        .about-text h6 {
+            color: #000 letter-spacing: 2px;
+            font-size: 20px;
+            margin-bottom: 25px;
+            text-transform: capitalize;
+        }
+
+        .about-text p {
+            color: #000 letter-spacing: 1px;
+            line-height: 28px;
+            font-size: 17px;
+            margin-bottom: 45px;
+        }
+
+
+        .footer {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background: #000;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            /* justify-content: center; */
+        }
+
+
+        .rodape {
+            display: flex;
+            background-color: #000;
+            margin: 0px;
+            padding-left: 200px;
+            font-size: 12px;
+        
+        }
+
+        .rodape p{
+            color: #fff;
+            padding: 35px;
+        }
+
+        .rodape a {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: yellow;
+            border-radius: 50%;
+            margin: 22px 10px 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .rodape a:hover {
+            transform: scale(1.3);
+            transition: .3s;
+        }
+
+   
+
+       
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+        <div class="container-header">
+            <h1>Carolina Rocha </h1>
+            <nav>
+                <a href="index.html">Sobre</a>
+                <a href="trabalho.html">Trabalhos</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="about">
+            <div class="main">
+                <img src="Imagem/gif-carol.gif">
+                <div class="about-text">
+                    <h2>Sobre </h2>
+                    <h6>Designer & comunicação visual </h6>
+                    <p>26 anos, carioca.<br><br>Formada em desenho industrial na Escola
+                        Superior de Desenho Industrial (Esdi - UERJ), com foco em design gráfico e comunicação
+                        visual.<br><br>
+                        Trabalho com peças para redes sociais, diagramação de e-books e revistas, identidade
+                        visual, layout para e-mail marketing, landind pages e materiais impressos. Iniciante em
+                        programação full stack.<br><br>Gosto de assistir
+                        filmes no cinema e séries por plataformas de streaming, conheçer lugares novos, restaurantes e
+                        praias.</p>
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+
+        <div class="rodape">
+            <a href="https://www.facebook.com/carolina.rocha.357"><i class="facebook"><img src="/Imagem/icone.png" alt=""></i></a>
+            <a href="https://www.instagram.com/carolinarconrado/"><i class="instagram"><img src="/Imagem/icone2.png" alt=""></i></a>
+            <p>Copyright @2022 - Todos os direitos reservados - Carolina Rocha</p>
+        </div>
+
+    
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+      * {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container-header {
+        background-color: #000;
+        display: flex;
+        flex-direction: row;
+        letter-spacing: 1px;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+      }
+
+      .container-header:hover {
+        background-color: purple;
+      }
+
+      .container-header h1 {
+        color: #fff;
+        padding: 10px;
+      }
+
+      .container-header a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+      }
+
+      .container-header a:hover {
+        color: yellow;
+      }
+
+      .main {
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+      .service {
+        background: yellow;
+        width: 100%;
+        padding: 100px 0px;
+      }
+
+      .box {
+        display: flex;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-top: -10px;
+        justify-content: space-around;
+        align-items: center;
+        /* min-height: 400px; */
+      }
+
+      .card {
+        height: 465px;
+        width: 335px;
+        padding: 0px 35px 0 35px;
+        background: purple;
+        margin: 15px;
+        position: 100%;
+        overflow: hidden;
+        text-align: center;
+      }
+
+      .card i {
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        color: yellow;
+      }
+
+      h5 {
+        color: white;
+        font-size: 23px;
+        margin-bottom: 15px;
+      }
+
+      .pra p {
+        color: #fff;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 25px;
+      }
+
+      .pra img {
+        width: 250px;
+        height: 150px;
+      }
+
+      .card .button {
+        background-color: yellow;
+        color: #000;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 22px;
+        transition: 0.4s;
+      }
+
+      .card .button:hover {
+        background-color: transparent;
+        border: 2px solid yellow;
+        cursor: pointer;
+      }
+
+      .footer {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background: #000;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .rodape {
+        display: flex;
+        background-color: #000;
+        margin: 0px;
+        padding-left: 200px;
+        font-size: 12px;
+      }
+
+      .rodape p {
+        color: #fff;
+        padding: 35px;
+      }
+
+      .rodape a {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: yellow;
+        border-radius: 50%;
+        margin: 22px 10px 0 10px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      .rodape a:hover {
+        transform: scale(1.3);
+        transition: 0.3s;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="container-header">
+        <h1>Carolina Rocha</h1>
+        <nav>
+          <a href="index.html">Sobre</a>
+          <a href="trabalho.html">Trabalhos</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="service">
+        <div class="title">
+          <h2></h2>
+        </div>
+
+        <div class="box">
+          <div class="card">
+            <i class="riso"></i>
+            <h5>Riso 52</h5>
+            <div class="pra">
+              <img src="/Imagem/riso.png" alt="" />
+              <p>
+                Livreto criado coletivamente com o tema animais e sensações. Foi
+                abordado técnicas de imposição de páginas e impressão em
+                risografia.
+              </p>
+
+              <p style="text-align: center">
+                <a
+                  class="button"
+                  href="https://www.behance.net/gallery/60824271/Riso-52"
+                  >VEJA MAIS</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <i class="landia"></i>
+            <h5>- Lândia</h5>
+            <div class="pra">
+              <img src="/Imagem/landia.png" alt="landia" />
+              <p>
+                Um zine sobre lugares impregnados, consiste em uma publicação
+                editorial elaborada coletivamente que busca explorar os
+                imaginários de lugares que levam o sufixo -lândia em seu nome.
+              </p>
+
+              <p style="text-align: center">
+                <a
+                  class="button"
+                  href="https://www.behance.net/gallery/77675811/-Landia-Zine-%28Design-Editorial%29"
+                  >VEJA MAIS</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <i class="estampa"></i>
+            <h5>Estampa digital</h5>
+            <div class="pra">
+              <img src="/Imagem/estampa.png" alt="estampa" />
+              <p>
+                Criação de estampa em serigrafia em tema livre, com teste de
+                impressão, cores em papeis e tecido, que foi adaptada para uma
+                estampa digital.
+              </p>
+
+              <p style="text-align: center">
+                <a
+                  class="button"
+                  href="https://www.behance.net/gallery/64018809/Estampa-Tropical-Serigrafia-e-adaptacao-p-digital"
+                  >VEJA MAIS</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="rodape">
+        <a href="https://www.facebook.com/carolina.rocha.357"
+          ><i class="facebook"><img src="/Imagem/icone.png" alt="facebook" /></i
+        ></a>
+        <a href="https://www.instagram.com/carolinarconrado/"
+          ><i class="instagram"><img src="/Imagem/icone2.png" alt="instagram" /></i
+        ></a>
+        <p>Copyright @2022 - Todos os direitos reservados - Carolina Rocha</p>
+      </div>
+    </footer>
+  </body>
+</html>
